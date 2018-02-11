@@ -1,3 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh-CN'>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="static/main.css">
+  </head>
+  <body>
+    {% block body %}{% endblock %}
+    {% block footer %}{% endblock %}
+    <srcript src="static/main.js"></script>
 </html>
