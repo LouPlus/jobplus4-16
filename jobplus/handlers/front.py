@@ -22,3 +22,8 @@ def login():
 def register():
     form = RegisterUserForm()
     return render_template('register.html', form=form)
+
+@front.route('/companyregister')
+def companyregister():
+    form = RegisterUserForm()
+    return render_template('company/companyregister.html', form=form)
